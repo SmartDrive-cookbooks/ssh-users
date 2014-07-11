@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: users
+# Cookbook Name:: ssh-users
 # Recipe:: default
 #
 # Copyright 2014, YOUR_COMPANY_NAME
@@ -7,8 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-node["users"]["setup"].each do |usr|
-  users_manage usr["name"] do
+node["ssh-users"]["setup"].each do |usr|
+  ssh-users_manage usr["name"] do
     group_id usr["group_id"]
     action usr["action"]
   end

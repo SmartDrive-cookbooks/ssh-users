@@ -1,11 +1,11 @@
-users CHANGELOG
+ssh-users CHANGELOG
 ===============
 
-This file is used to list changes made in each version of the users cookbook.
+This file is used to list changes made in each version of the ssh-users cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of users
+- [your_name] - Initial release of ssh-users
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

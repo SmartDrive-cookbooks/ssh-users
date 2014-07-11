@@ -1,1 +1,1 @@
-default["users"]["setup"] = []
+default["ssh-users"]["setup"] = []
