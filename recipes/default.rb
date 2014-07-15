@@ -8,7 +8,7 @@
 #
 
 node["ssh-users"]["setup"].each do |usr|
-  ssh-users_manage usr["name"] do
+  users_manage usr["name"] do
     group_id usr["group_id"]
     action usr["action"]
   end
